@@ -1,0 +1,63 @@
+h1 {
+    color: #36599a;
+    font-size: 55px;
+    font-family: "Lucida Handwriting", cursive, sans-serif;}
+h2 {Color: #36599a;
+font-style: italic;
+font-size: 35px;}     
+h4 {color:#36599a;
+font-size:25px}
+body {background-color:#e8e8e8;
+    margin-right: 100px;}
+img {float:right;}
+nav {width: 100%;
+     display: flex;
+     max-height: 30px;
+     background-color: lightskyblue;}
+.navbar {  display: inline-block; 
+width: 100px;;
+line-height: 30px; ;
+text-decoration: none;
+text-align: center;
+margin: 0 0px;
+vertical-align: center;
+position:relative
+}
+.navbar:hover {background-color: #c61aff;
+    border-bottom: 3px solid white}
+.navlist {
+margin: 0;
+padding: 0;
+list-style-type: none;   
+display: flex;
+max-height: 30px;
+vertical-align: center;
+}
+.link {position: relative;}
+a {text-decoration: none;
+color: white;}
+table {width:25%;
+border-collapse: collapse;}
+table, th, td {border-style: solid;
+    border-width: 1.5px;
+border-color: black;}
+td {text-align: center;}
+th{font-size: 20px;}
+.Right {color:green}
+.Wrong {color: rgb(201, 0, 0);}
+.name {width:25%;
+margin: 4px 0;
+padding:5px;}
+input[type=text]:focus {background-color:rgb(192, 191, 191);
+border:1px solid black;}
+label:hover {background-color: #c61aff;
+    border-bottom: 3px solid white}
+input[type=submit] {width: 10%;
+font-size:15px;
+font-weight:bold;}
+input[type=submit]:hover {background-color:rgb(192, 191, 191);
+border: solid 2px black;
+border-radius: 5px;}
+.list {list-style-type: square;}
+.bullet {font-weight:bold;}
+
