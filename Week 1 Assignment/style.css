@@ -2,18 +2,24 @@ h1 {
     color: #36599a;
     font-size: 55px;
     font-family: "Lucida Handwriting", cursive, sans-serif;}
+    /* changes font size and color as well as font to all h1 */
 h2 {Color: #36599a;
 font-style: italic;
 font-size: 35px;}     
+/* changes font color, style, and size to all h2 */
 h4 {color:#36599a;
 font-size:25px}
+/* chnages font color and size to all h4  */
 body {background-color:#e8e8e8;
     margin-right: 100px;}
+    /* changes background color and adds margin on right of entire body  */
 img {float:right;}
+/* cause all img to go to the right  */
 nav {width: 100%;
      display: flex;
      max-height: 30px;
      background-color: lightskyblue;}
+     /* causes nav to cover entire width of body and adds max height and background color to it  */
 .navbar {  display: inline-block; 
 width: 100px;;
 line-height: 30px; ;
@@ -23,8 +29,12 @@ margin: 0 0px;
 vertical-align: center;
 position:relative
 }
+/* gives navbar class a width and line height, removes bullet points and aligns all text to center 
+also vertially aligns element within its parent element, allows position to be adjusted 
+by what is around it. */
 .navbar:hover {background-color: #c61aff;
     border-bottom: 3px solid white}
+/* gives navbar class an alternate color and bottom border when hovered */
 .navlist {
 margin: 0;
 padding: 0;
@@ -33,31 +43,45 @@ display: flex;
 max-height: 30px;
 vertical-align: center;
 }
+
 .link {position: relative;}
+/* makes the link position relative  */
 a {text-decoration: none;
 color: white;}
+/* removes text decoration and changes text color to white  */
 table {width:25%;
 border-collapse: collapse;}
+/* Expands table to quarter of the parent elements width and allows the borders to contain 1 border each  */
 table, th, td {border-style: solid;
     border-width: 1.5px;
 border-color: black;}
+/* gives the table elements of both th and td a black border */
 td {text-align: center;}
+/* aligns text center  */
 th{font-size: 20px;}
 .Right {color:green}
 .Wrong {color: rgb(201, 0, 0);}
+/* chnages the right and wrong classes colors */
 .name {width:25%;
 margin: 4px 0;
 padding:5px;}
+/* chnages name class's width, margin and padding */
 input[type=text]:focus {background-color:rgb(192, 191, 191);
 border:1px solid black;}
+/* changes input background color and adds border when element is selected */
 label:hover {background-color: #c61aff;
     border-bottom: 3px solid white}
+    /* gives the label element a hover  */
 input[type=submit] {width: 10%;
 font-size:15px;
 font-weight:bold;}
+/* changes sumbit input width, font size and makes te text bold  */
 input[type=submit]:hover {background-color:rgb(192, 191, 191);
 border: solid 2px black;
 border-radius: 5px;}
+/* adds a submit hover  */
 .list {list-style-type: square;}
+/* changes the bullet point type  */
 .bullet {font-weight:bold;}
+/* changes the bulleted elements to bold */
 
